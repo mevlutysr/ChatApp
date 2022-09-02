@@ -7,6 +7,7 @@ import ProfilScreen from './screens/profile';
 import ChatScreen from './screens/chat';
 import SignInScreen from './screens/signIn';
 import SignUpScreen from './screens/signUp';
+import ProfileSettingsScreen from './screens/profileSettings'
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -49,6 +50,7 @@ class HomeStack extends Component {
             <Stack.Screen name="SignIn" component={SignInScreen} />
             <Stack.Screen name="SignUp" component={SignUpScreen} />
             <Stack.Screen name="HomeTabs" component={HomeTabs} />
+            <Stack.Screen name="ProfileSettings" component={ProfileSettingsScreen} />
         </Stack.Navigator>
         )
     }

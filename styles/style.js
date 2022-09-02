@@ -56,10 +56,10 @@ const styles = StyleSheet.create({
     profileView: {
         width:'30%',
         height:'15%',
-        marginTop:'15%',
-        marginLeft:'5%',
+        marginTop:'17%',
+        marginLeft:'35%',
         borderWidth: 1,
-        borderRadius: 100
+        borderRadius: 100,
         }
 })
 
